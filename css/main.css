@@ -6,6 +6,7 @@ body{
 header {
 	
 }
+
 .bg{
  width: 100%;
  display: block;
@@ -80,6 +81,7 @@ header {
 @media screen and (max-width: 1100px) {
 	.menu li a {
 		font-size: 10px
+	}
 }
 .bg2{
 	width: 100%;
@@ -94,20 +96,80 @@ header {
   margin: 0 auto
 }
 .con {
-	position:relative
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 .top {
-	position:absolute;top:0;left:0;
 }
 .top1{
-	position:absolute;top:0;left:0;
 }
 .top2{
-	position:absolute;top:0;left:0;
 }
 .top3{
-	position:absolute;top:0;left:0;
 }
-.services > a {
+.text-block {
+	text-align: center;
+}
+.services a {
 	color: white;
+	transition: .2s ease-in-out;
+	text-decoration: none;
+}
+.services a img {
+	transition: .2s ease-in-out;
+}
+.services {
+	background-image: url("../img/bg2_02.png");
+	padding: 30px 0;
+	text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+.services h3 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+.content2 {
+	padding: 30px 0;
+}
+.content2 .container {
+	column-count: 2;
+    column-gap: 30px;
+}
+.services .con > a:hover {
+	color: gold;
+}
+.services .con > a:hover img {
+	opacity: .5
+}
+.text-block h4 {
+	font-weight: 700;
+	position: relative;
+}
+.text-block h4:before {
+	content: '';
+	position: absolute;
+	display: block;
+}
+.text-block h4:after {
+	content: '';
+	position: absolute;
+	display: block;
+}
+.image {
+	width: 235px;
+	height: 157px;
+	background-image: url('../img/flower.png');
+	background-size: cover;
+}
+.image.second-image{
+	background-image: url('../img/water.png');
+}
+.offer-list {
+
 }
