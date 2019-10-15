@@ -8,10 +8,13 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 	<style>
-	ul{ 
-	list-style-type: square; 
-	} 
-</style>
+		ul{ 
+			list-style-type: none;
+		}
+		ul{
+			list-style-image: url(img/list_icon.png);
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -33,49 +36,58 @@
 		</div>
 		<div class="container">
 			<nav class="menu">
-				<ul class="menu-wrap">
-					<li class="left">
-						<a href="#">Architectural Design</a>
+				<ol class="menu-wrap">
+					<li>
+						<a href="#" >
+							<span>Architectural Design</span>
+						</a>
 					</li>
-					<li class="left">
-						<a href="#">Services</a>
+					<li>
+						<a href="#" class="submenu-link">
+							<span>Services</span>
+						</a>
 					</li>
-					<li class="left">
-						<a href="#">Portfolio</a>
+					<li>
+						<a href="#">
+							<span>Portfolio</span>
+						</a>
 					</li>
 					<li class="logo-wrap">
-						<img src="img/logo.png" alt="" class="logo">
+						<a href="#">
+						<img src="img/logo.png">
+						</a>
 					</li>
-					<li class="right">
-						<a href="#">Seasonal News</a>
+					<li>
+						<a href="#">
+							<span>Seasonal News</span>
+						</a>
 					</li>
-					<li class="right">
-						<a href="#">Testimonials</a>
+					<li>
+						<a href="#">
+							<span>Testimonials</span>
+						</a>
 					</li>
-					<li class="right">
-						<a href="#">Contact</a>
+					<li>
+						<a href="#">
+							<span>Contact</span>
+						</a>
 					</li>
-				</ul>
+				</ol>
 			</nav>
 		</div>
 	</header>
-	<section>
+	<main>
+	<section class="main-page">
 		<div class="slider">
 			<div class="slider-title">
 				<div class="container">
-					<p align= "center" style= "font-size:60px; margin-bottom:-50px" class="main-text">
-						<font face="Chiller" color="white">
-						<em>
-						<strong>
-							Houstonian Best
-						</strong>
-						</em>
-						</font>
-					</p>
-					<p align= "center" style= "font-size:80px">
+					<h1>
+						<em>Houstonian Best</em>
+					</h1>
+					<span>
 						Landscape Company
-					</p>
-					<u align="center" style="font-size:25px; margin-top: -20px">
+					</span>
+					<u>
 						Full Service Maintenance
 					</u>
 				</div>
@@ -83,152 +95,202 @@
 			<img src="img/bg.png" class="bg">
 		</div>
 	</section>
-	<div class="container">
-		<div style="float: left; width: 46%; color:#000;" class="text">
-		<h1>
-			<em>Create the</em>
-			<br>
-			Perfect Garden
-		</h1>
-		<p>
-			Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. Donec facilisis nisl nulla dictum eu, fringilla neque, euismod eget...
-		</p>
-		<p>
-			<a href="#" class="more">read more</a>
-		</p>
-		</div>
-		<div style="float: right; width: 35%;color:#000" class="text2">
-			<h3>
-				<em>What we offer</em>
-			</h3>
-				<ul>
-					<h4>
-						<li>
-							<a href="#">Landscape design &amp; Budgeting</a>
-						</li>
-						<li>
-							<a href="#">Irrigation</a>
-						</li>
-						<li>
-							<a href="#">Drainage</a>
-						</li>
-						<li>
-							<a href="#">Lighting</a>
-						</li>
-						<li>
-							<a href="#">Pool &amp; Hardscape</a>
-						</li>
-						<li>
-							<a href="#">Other Services</a>
+	<section class="start-content">
+		<div class="container">
+			<div class="text">
+				<h2>
+					<em>Create the</em>
+					<br>
+					Perfect Garden
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. Donec facilisis nisl nulla dictum eu, fringilla neque, euismod eget...
+					<br>
+					<a href="#" class="more">read more</a>
+				</p>
+			</div>
+			<div class="text">
+				<h3>
+					What we offer
+				</h3>
+				<ul class="offer-list">
+					<li>
+						<a href="#">Landscape design &amp; Budgeting</a>
 					</li>
-					</h4>
+					<li>
+						<a href="#">Irrigation</a>
+					</li>
+					<li>
+						<a href="#">Drainage</a>
+					</li>
+					<li>
+						<a href="#">Lighting</a>
+					</li>
+					<li>
+						<a href="#">Pool &amp; Hardscape</a>
+					</li>
+					<li>
+						<a href="#">Other Services</a>
+					</li>
 				</ul>
+			</div>
 		</div>
-	</div>
-		</div>
-			<div class="services">
-				<section>
-					<div class="slider">
-						<div class="">
-							<div class="container">
-					
-							</div>
-						</div>
-							<div class="con">
-								<img src="img/bg2_02.png"/>
-									<div class="text-block" style="position:absolute;top:400px;left:800px;z-index:100; color: white">
-										<h3>
-											<strong>
-											<em>
-												Our Services
-											</em>
-											</strong>
-										</h3>
-									</div>
-									<div style="position:absolute;top:440px;left:260px;z-index:100;">
-										<img src="img/flower.png" class="top"/>
-										<div style="float: right; width: 89%;color:#fff">
-										<a href="#">
-											<h4>
-												<strong>
-													Lawn & Garden
-													<br>
-													Maintentance
-												</strong>
-											<h4>
-										</a>
-										</div>
-									</div>
-									<div style="position:absolute;top:440px;left:600px;z-index:100;">
-										<img src="img/water.png" class="top1"/>
-										<div style="float: right; width: 80%;color:#fff">
-										<a href="#">
-											<h4>
-												<strong>
-													Irrigation
-													<br>
-													Repair
-												</strong>
-											<h4>
-										</a>
-										</div>
-									</div>
-									<div style="position:absolute;top:440px;right:580px;z-index:100;">
-										<img src="img/car.png" class="top2"/>
-										<div style="float: right; width: 83%;color:#fff">
-										<a href="#" >
-											<h4>
-												<strong>
-													Heavy Trash
-													<br>
-													Removal
-												</strong>
-											<h4>
-										</a>
-										</div>
-									</div>
-									<div style="position:absolute;top:440px;right:270px;z-index:100;">
-										<img src="img/lighter.png" class="top3"/>
-										<div style="float: right; width: 77%;color:#fff">
-										<a href="#">
-											<h4>
-												<strong>
-													Seasonal
-													<br>
-													Lighting
-												</strong>
-											<h4>
-										</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				</section>
-		</div>
-	<div class="container">
-		<div style="float: left; width: 49%;color:#000" class="text3">
-		<h3>
-			<em>Why Choose Us</em>
+	</section>
+	<section class="services">
+		<div class="container">
+			<h3>
+				Our Services
 			</h3>
+			<div class="con">
+					<div class="services-wrapp">
+						<a href="#" class="text-block">
+							<div class="image"></div>
+							<h4>
+								Lawn & Garden
+								<br>
+								Maintentance
+							</h4>
+						</a>
+					</div>
+					<div class="services-wrapp">
+						<a href="#" class="text-block">
+							<div class="image second-image"></div>
+							<h4>
+								Irrigation
+								<br>
+								Repair
+							</h4>
+						</a>
+					</div>
+					<div class="services-wrapp">
+						<a href="#" class="text-block">
+							<div class="image third-image"></div>
+							<h4>
+								Heavy Trash
+								<br>
+								Removal
+							</h4>
+						</a>
+					</div>
+					<div class="services-wrapp">
+						<a href="#" class="text-block">
+							<div class="image fourth-image"></div>
+							<h4>
+								Seasonal
+								<br>
+								Lighting
+							</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="content2">
+		<div class="container">
+			<div class="text3">
+				<h3>
+					Why Choose Us
+				</h3>
+				<p>
+					Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. 
+					Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. 
+					<br>
+					<a href="#" class="more">read more</a>
+				</p>
+			</div>
+				<div class="text4">
+					<h3>
+						What people say about us
+					</h3>
+					<p>Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. 
+						<br>
+						-Cindy, Houston
+					</p>
+				</div>
+		</div>
+	</section>
+	<section class="content3">
+		<div class="container">
+			<div class="text-menu">
+				<h1>
+					Looking For Landscape Company?
+				</h1>
+				<span>
+					Contact us today to get free estimate!
+				</span>
+			</div>
+			<div class="request">
+				<p>
+				<a href="#">
+					Request a consultaion
+				</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<div>
+				<ol>
+					<li>
+						Adress
+						<br>
+						Adress Here
+						<br>
+						Houston, Texas 77080
+					</li>
+					<li>
+						Phone
+						<h6>
+							700-600-500
+						</h6>
+					</li>
+					<li class="logo-down">
+						<a href="#">
+							<img src="img/logo.png">
+						</a>
+					</li>
+					<li>
+						Working Hours
+						<br>
+						Sun-Fri: 	8am - 7pm
+						<br>
+						Sat: 		10am - 5pm
+					</li>
+					<li class="socials">
+						Follow us
+						<br>
+					<a href="#">
+						<img src="img/face.png">
+					</a>
+					<a href="#">
+						<img src="img/twit.png">
+					</a>
+					<a href="#">
+						<img src="img/inst.png">
+					</a>
+					</li>
+				</ol>
+
+			</div>
+		</div>
+	</section>
+	</main>
+	<footer class="copyrights">
+		<div class="container">
 			<p>
-				Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. 
-				Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. 
+				@2016 Houstonian Landscape Company
+				<a href="#">
+					Website Design
+				</a>
+				&
+				<a href="#">
+					Seo Houston
+				</a>
+				-Graphics by Cindy
 			</p>
 		</div>
-	<div style="float: right; width: 40%;color:#000" class="text4">
-		<h3>
-			<em>What people say about us</em>
-		</h3>
-		<p>Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. 
-			<br>
-			<br>
-			<em>
-				-Cindy, Houston
-			</em>
-		</p>
-	</div>
-	</div>
+	</footer>
 </body>
 
 </html>
