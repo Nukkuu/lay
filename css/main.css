@@ -23,8 +23,8 @@ header {
 .socials > a {
 	text-decoration: none;
 }
-.phone{
-font-size: 12px;
+.phone p{
+	font-size: 12px;
     line-height: 1;
     color: #636363;
     font-weight: 400;
@@ -35,7 +35,7 @@ font-size: 12px;
 	font-size: 20px;
 	text-decoration: none;
 }
-.phone:before{
+.phone u:before{
     left: 0;
     top: 0;
     height: 33px;
@@ -422,8 +422,6 @@ font-size: 12px;
 	column-count: 2;
 	column-gap: 200px;
 }
-
-
 .content3 {
 	background-image: url("../img/bg_06.png");
 	padding: 60px 0;
