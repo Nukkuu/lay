@@ -7,14 +7,21 @@
 	<title>HOUSTONIAN LANDSCAPE COMPANY</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/brands.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/solid.css">
+	<script src="https://kit.fontawesome.com/b43f20a297.js" crossorigin="anonymous">
+	</script>
 	<style>
 		ul{ 
 			list-style-type: none;
 		}
-		ul{
+		.offer-list{
 			list-style-image: url(img/list_icon.png);
-		{
-			list-style-type: square; 
 		}
 	</style>
 </head>
@@ -24,21 +31,31 @@
 			<div class="header-line">
 				<div class="socials">
 					<a href="#">
-						<img src="img/face.png" alt="" class="face">
+						<i class="fab fa-facebook-f"></i>
 					</a>
 					<a href="#">
-						<img src="img/twit.png" alt="" class="twit">
+						<i class="fab fa-twitter"></i>
 					</a>
 					<a href="#">
-						<img src="img/inst.png"	alt="" class="inst">
+						<i class="fab fa-instagram"></i>
 					</a>
 				</div>
-				<a href="tel:55555555"><img src="img/phone.png" alt=""class=phone></a>
+				<div class="phone">
+					
+					<p>
+						Contact Us Today
+					</p>
+					<u>
+					<i class="fas fa-phone-alt"></i>
+					</u>
+					<a href="#">700-600-500</a>
+
+				</div>
 			</div>
 		</div>
 		<div class="container">
 			<nav class="menu">
-				<ol class="menu-wrap">
+				<ul class="menu-wrap">
 					<li>
 						<a href="#" >
 							<span>Architectural Design</span>
@@ -74,7 +91,7 @@
 							<span>Contact</span>
 						</a>
 					</li>
-				</ol>
+				</ul>
 			</nav>
 		</div>
 	</header>
@@ -83,15 +100,18 @@
 		<div class="slider">
 			<div class="slider-title">
 				<div class="container">
-					<h1>
-						<em>Houstonian Best</em>
-					</h1>
-					<span>
-						Landscape Company
-					</span>
-					<u>
-						Full Service Maintenance
-					</u>
+					<div class="main-page-text">
+						<h1>
+							Houstonian Best
+						</h1>
+						<span>
+							Landscape Company
+						</span>
+						<br>
+						<u>
+							Full Service Maintenance
+						</u>
+					</div>
 				</div>
 			</div>
 			<img src="img/bg.png" class="bg">
@@ -99,42 +119,44 @@
 	</section>
 	<section class="start-content">
 		<div class="container">
-			<div class="text">
-				<h2>
-					<em>Create the</em>
-					<br>
-					Perfect Garden
-				</h2>
-				<p>
-					Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. Donec facilisis nisl nulla dictum eu, fringilla neque, euismod eget...
-					<br>
-					<a href="#" class="more">read more</a>
-				</p>
-			</div>
-			<div class="text2">
-				<h3>
-					What we offer
-				</h3>
-				<ul class="offer-list">
-					<li>
-						<a href="#">Landscape design &amp; Budgeting</a>
-					</li>
-					<li>
-						<a href="#">Irrigation</a>
-					</li>
-					<li>
-						<a href="#">Drainage</a>
-					</li>
-					<li>
-						<a href="#">Lighting</a>
-					</li>
-					<li>
-						<a href="#">Pool &amp; Hardscape</a>
-					</li>
-					<li>
-						<a href="#">Other Services</a>
-					</li>
-				</ul>
+			<div class="main-info">
+				<div class="text">
+					<h2>
+						<em>Create the</em>
+							Perfect Garden
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. Donec facilisis nisl nulla dictum eu, fringilla neque, euismod eget...
+					</p>
+					<h6>
+						<a href="#" class="more">read more</a>
+					</h6>
+				</div>
+				<div class="text2">
+					<h3>
+						What we offer
+					</h3>
+					<ul class="offer-list">
+						<li>
+							<a href="#">Landscape design &amp; Budgeting</a>
+						</li>
+						<li>
+							<a href="#">Irrigation</a>
+						</li>
+						<li>
+							<a href="#">Drainage</a>
+						</li>
+						<li>
+							<a href="#">Lighting</a>
+						</li>
+						<li>
+							<a href="#">Pool &amp; Hardscape</a>
+						</li>
+						<li>
+							<a href="#">Other Services</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -143,7 +165,7 @@
 			<h3>
 				Our Services
 			</h3>
-			<div class="con">
+				<div class="con">
 					<div class="services-wrapp">
 						<a href="#" class="text-block">
 							<div class="image"></div>
@@ -189,34 +211,39 @@
 	</section>
 	<section class="content2">
 		<div class="container">
-			<div class="text3">
-				<h3>
-					Why Choose Us
-				</h3>
-				<p>
-					Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. 
-					Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. 
-					<br>
-					<a href="#" class="more">read more</a>
-				</p>
-			</div>
-				<div class="text4">
+			<div class="content-menu">
+				<div class="text3">
 					<h3>
-						What people say about us
+						Why Choose Us
 					</h3>
-					<p>Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. 
-						<br>
-						-Cindy, Houston
+					<p>
+						Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. 
+					</p>
+					 <p>
+						Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. Quisque ut porta tincidunt. Praesent feugiat. Pellentesque tortor.  Nunc consectetuer adipiscing laoreet, purus at sem. Integer eu mollis ac, accumsan lorem. 
+					<br>
+						<a href="#" class="more">read more</a>
 					</p>
 				</div>
+				<div class="text4">
+					<h3>
+							What people say about us
+					</h3>
+					<p>Proin quis elit. In id tortor. Proin urna. Sed euismod eget, ante. Duis posuere suscipit erat. Suspendisse auctor, egestas ac, porta neque, condimentum enim eget commodo magna, gravida gravida gravida vitae, ipsum. Lorem ipsum dolor sit amet mi risus, euismod pulvinar ut, lobortis fringilla, massa. Sed placerat. Curabitur ornare tortor et malesuada tincidunt, diam mauris, volutpat eu, fringilla est, et enim. 
+					</p>
+					<span>
+						-Cindy, Houston
+					</span>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="content3">
 		<div class="container">
 			<div class="text-menu">
-				<h1>
-					Looking For Landscape Company?
-				</h1>
+				<h2>
+					Looking for landscape company?
+				</h2>
 				<span>
 					Contact us today to get free estimate!
 				</span>
@@ -233,16 +260,19 @@
 	<section class="contacts">
 		<div class="container">
 			<div>
-				<ol>
+				<ul>
 					<li>
+						 <h5>
 						Adress
-						<br>
+						</h5>
 						Adress Here
 						<br>
 						Houston, Texas 77080
 					</li>
 					<li>
+						<h5>
 						Phone
+						</h5>
 						<h6>
 							700-600-500
 						</h6>
@@ -253,27 +283,28 @@
 						</a>
 					</li>
 					<li>
+						<h5>
 						Working Hours
-						<br>
+						</h5>
 						Sun-Fri: 	8am - 7pm
 						<br>
 						Sat: 		10am - 5pm
 					</li>
-					<li class="socials">
+					<li>
+						<h5>
 						Follow us
-						<br>
-					<a href="#">
-						<img src="img/face.png">
+						</h5>
+					<a href="#" class="social">
+						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a href="#">
-						<img src="img/twit.png">
+					<a href="#" class="social">
+						<i class="fab fa-twitter"></i>
 					</a>
-					<a href="#">
-						<img src="img/inst.png">
+					<a href="#" class="social">
+						<i class="fab fa-instagram"></i>
 					</a>
 					</li>
-				</ol>
-
+				</ul>
 			</div>
 		</div>
 	</section>
