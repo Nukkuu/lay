@@ -115,6 +115,9 @@ header {
 .menu .menu-wrap li > a:hover{
 	color:#ad8d4b;
 }
+.menu .menu-wrap .fa-angle-down{
+	font-size: 17px;
+}
 .header-line .socials i{
 	font-size: 20px;
     line-height: 32px;
