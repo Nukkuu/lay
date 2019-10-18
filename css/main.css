@@ -11,7 +11,9 @@ header {
  margin: 0 auto;
 }
 .container{
+	width: 100%;
 	max-width: 1310px;
+	margin: 0 auto;
 }
 .header-line {
 	margin-top: 20px;
@@ -161,6 +163,9 @@ header {
     border-bottom: 2px solid #f8f8f8;   
     top:61.5%;                        
     right: 37%; 
+}
+.start-content .text2 ul{
+	list-style-type: none;
 }
 .start-content .main-info {
 	column-count: 2;
@@ -510,6 +515,7 @@ header {
 .contacts ul{
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
 }
 .contacts h6{
 	font-family: Open Sans;
