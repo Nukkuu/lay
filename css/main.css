@@ -312,6 +312,9 @@ header {
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
 }
+.more:hover:before {
+	right: -30px;
+}
 .bg2{
 	width: 100%;
 }
