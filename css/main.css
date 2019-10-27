@@ -306,10 +306,9 @@ header {
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
 }
-<<<<<<< HEAD
 .more:hover:before{
 	right: -40px;
-=======
+}
 .more:hover:before {
 	right: -30px;
 }
@@ -318,7 +317,6 @@ header {
 }
 .main-text{
   margin: 0 auto
->>>>>>> fcae8a570799b662bce872add97c7169b28675ba
 }
 .services .con {
 	display: flex;
