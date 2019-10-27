@@ -78,7 +78,7 @@ header {
 }
 .menu .logo-wrapp{
 	position: absolute;
-    left: 50%;
+    left: 51%;
     top: 60%;
     z-index: 5;
     transform: translate(-50%, -50%);
@@ -177,21 +177,23 @@ header {
 }
 .slider-title .main-page-text .subtitle-text2:before{
 	display: block;                
-    width:11%;                    
+    width:22%;                    
     content: '';                    
     position: absolute;             
-    border-bottom: 2px solid #f8f8f8;   
-    top:50%;                        
-    left: -11%; 
+    border-bottom: 1px solid #f8f8f8;   
+    top:52%;                        
+    right: -28%; 
+    box-shadow: black 3px 4px 12px 3px;
 }
 .slider-title .main-page-text .subtitle-text2:after{
 	display: block;                
-    width:11%;                    
+    width:22%;                    
     content: '';                    
     position: absolute;             
-    border-bottom: 2px solid #f8f8f8;   
-    top: 50%;                        
-    right: -11%; 
+    border-bottom: 1px solid #f8f8f8;   
+    top: 52%;                        
+    left: -28%; 
+    box-shadow: black 3px 4px 12px 3px;
 }
 .start-content .text2 ul{
 	list-style-type: none;
@@ -619,5 +621,44 @@ header {
 	color:#9c814c;
 }
 @media screen and (max-width: 1270px){
-
+	.menu li  ul{
+    left: 16%;
+	}
+	.menu li > ul li a{
+		font-size: 12px;
+	}
+	.menu li > a{
+		font-size: 13px;
+	}
+	.menu ul .fa-angle-down{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.container{
+		max-width: 1000px;
+	}
+	.menu .top-left > li{
+		padding-right: 15px;
+	}
+	.menu .top-right > li{
+		padding-left: 15px;
+	}
+	.menu li  ul{
+    	left: 20%;
+	}
+	.fa-phone-alt:before{
+		position: absolute;
+		top: 0;
+		left: -35px;
+	}
+	.start-content h2{
+		font-size: 40px;
+	}
+	.contacts .left > li{
+		padding-right: 0px;
+	}
+	.contacts .right > li{
+		padding-right: 0px;
+	}
 }
